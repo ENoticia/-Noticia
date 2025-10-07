@@ -35,37 +35,6 @@ main {
   height: 42vh;
 }
 
-.film-strip {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  overflow-x: auto; /* se passar da tela, vira scroll horizontal */
-  background: rgb(255, 255, 255); /* fundo atrás da película */
-}
-
-.frame {
-  position: relative;
-  width: 295px;
-  left: 2%;
-  height: 200px;
-  margin: 0;
-  background: url('img/fundo\ moldura.png') repeat center;
-  background-size: cover;
-  flex-shrink: 0; /* não deixar encolher */
-  z-index: 10; /* fica na frente */
-}
-
-.frame img {
-  position: absolute;
-  top: 18%;
-  left: 23%;
-  width: 92%;
-  height: 65%;
-  object-fit: cover;
-  z-index: 10; /* fica na frente */
-  border-radius: 15px;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #fff;
