@@ -43,6 +43,7 @@ const mobileNavbar = new MobileNavbar(
 );
 mobileNavbar.init();
 
+
 // JS simples para o menu mobile (hambúrguer)
     const mobileBtn = document.getElementById('mobileBtn');
     const navList = document.querySelector('.nav-list');
