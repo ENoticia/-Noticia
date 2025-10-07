@@ -42,12 +42,3 @@ const mobileNavbar = new MobileNavbar(
   ".nav-list li",
 );
 mobileNavbar.init();
-
-
-// JS simples para o menu mobile (hambúrguer)
-    const mobileBtn = document.getElementById('mobileBtn');
-    const navList = document.querySelector('.nav-list');
-    mobileBtn?.addEventListener('click', () => {
-      navList.classList.toggle('active');
-      mobileBtn.classList.toggle('active');
-    });
