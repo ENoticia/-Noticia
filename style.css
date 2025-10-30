@@ -226,6 +226,11 @@ a:hover {
   right: 0;
 }
 
+.banner-right2 {
+  margin-top: 30%;
+  right: 10;
+}
+
 .banner img {
   width: 100%;
   height: auto;
